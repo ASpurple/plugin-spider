@@ -1,0 +1,22 @@
+{
+    "name": "读取HTML",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "读取HTML并将数据发送至http://localhost:9200/data",
+    "icons": {
+        "19": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "http://*/*",
+        "https://*/*",
+        "notifications",
+        "storage",
+        "contextMenus",
+        "tabs", "http://*/*", "https://*/*"
+    ]
+
+}
